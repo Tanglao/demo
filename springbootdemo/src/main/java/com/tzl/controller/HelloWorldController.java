@@ -1,5 +1,6 @@
 package com.tzl.controller;
 
+import com.example.Log;
 import com.tzl.bean.User;
 import com.tzl.dao.UserResposity;
 import com.tzl.services.UserCache;
@@ -27,6 +28,7 @@ public class HelloWorldController {
 
     @RequestMapping("/users")
     @ResponseBody
+    @Log
     Iterable<User> users() {
         return userReposity.findAll();
     }
