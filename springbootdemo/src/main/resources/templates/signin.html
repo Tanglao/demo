@@ -29,7 +29,12 @@
 <body>
 
 <div class="container">
+    <script type="text/javascript">
 
+        var str="Hello world!"
+        document.write(str.blink())
+
+    </script>
     <form class="form-signin" role="form" th:action="@{/login}" method="POST">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input type="text" class="form-control" name="username" placeholder="User name" />

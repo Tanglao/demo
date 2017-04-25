@@ -12,7 +12,8 @@
 	<description>Demo project for Spring Boot</description>
 	<modules>
 		<module>springbootdemo</module>
-	</modules>
+        <module>stormwordcount</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
